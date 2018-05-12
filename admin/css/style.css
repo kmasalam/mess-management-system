@@ -1,0 +1,39 @@
+#load-screen {
+background: #eee;
+position: fixed;
+z-index: 10000;
+top:0px;
+width: 100%;
+height: 1600px;
+
+}
+a.navbar-brand img {
+    width: 40px;
+    margin-top: 5px;
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 0;
+    padding-left: 15px;
+}
+.bg_secondary {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 30px;
+    color: #111;
+}
+
+#loading {
+
+width: 500px;
+height: 500px;
+margin: 10% auto;
+background: url(../images/loader.gif);
+background-size: 40%;
+background-repeat: no-repeat;
+background-position: center;
+
+}
